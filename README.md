@@ -15,7 +15,7 @@ npm intall websocket.io
 
 type node server.js 
 
-![](Images/ss1.png)
+![](Images/ss2.png)
 
 
 
