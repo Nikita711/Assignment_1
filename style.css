@@ -29,7 +29,21 @@
     left: 45%;
     bottom: 32px;
 }
+input {
+    padding: 14px;
+    border-radius: 8px;
+}
 
 button {
+    margin-top: 15px;
     cursor: pointer;
+    padding: 10px 12px 10px 12px;
+    border-radius: 8px;
+}
+button:hover {
+    color: rgb(0, 0, 0);
+    background-color: cornflowerblue;
+}
+textarea {
+    width: 50%;
 }
