@@ -1,4 +1,4 @@
-const webSocket = new WebSocket("ws://SERVER-IP-HERE:3000");
+const webSocket = new WebSocket("ws://192.168.29.109:3000");
 
 webSocket.onmessage = (event) => {
   handleSignallingData(JSON.parse(event.data));
@@ -110,4 +110,11 @@ let isVideo = true;
 function muteVideo() {
   isVideo = !isVideo;
   localStream.getVideoTracks()[0].enabled = isVideo;
+}
+function addcomments(id) {
+  var addEventNames = id.value + "<br>";
+  var a = document.getElementById("usercomments");
+  document.getElementById("addEventNames").innerHTML +=
+    "<p>" + addEventNames + "</p>";
+  a.value = a.defaultvalue;
 }

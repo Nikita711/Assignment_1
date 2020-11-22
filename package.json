@@ -1,0 +1,27 @@
+{
+  "name": "videocall",
+  "version": "1.0.0",
+  "description": "assignment one of robokalam",
+  "main": "server.js",
+  "dependencies": {
+    "websocket": "^1.0.32"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikita711/Assignment_1.git"
+  },
+  "keywords": [
+    "videocall"
+  ],
+  "author": "nikita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikita711/Assignment_1/issues"
+  },
+  "homepage": "https://github.com/Nikita711/Assignment_1#readme"
+}

@@ -17,6 +17,17 @@
       <video muted id="local-video" autoplay></video>
       <video id="remote-video" autoplay></video>
       <div class="call-action-div">
+        <br /><textarea
+          rows="8"
+          cols="120"
+          id="usercomments"
+          placeholder="Leave a comment..."
+        ></textarea
+        ><br />
+        <br /><button id="comment-btn" onclick="addcomments(usercomments)">
+          Comment</button
+        ><br /><br />
+        <div id="addEventNames"></div>
         <button onclick="muteVideo()">Mute Video</button>
         <button onclick="muteAudio()">Mute Audio</button>
       </div>
